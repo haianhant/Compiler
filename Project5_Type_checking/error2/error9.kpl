@@ -1,0 +1,13 @@
+PROGRAM error9;
+VAR n: INTEGER;
+    m: INTEGER;
+PROCEDURE R(var x: integer);
+BEGIN
+   x := x+1;
+END;
+
+BEGIN
+  n := 1;
+  m := 2;
+  CALL R(n+m);   
+END.

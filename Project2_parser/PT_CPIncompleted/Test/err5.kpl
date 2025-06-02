@@ -1,0 +1,4 @@
+PROGRAM Err5; 
+   PROCEDURE DoSomething(123x: INTEGER);
+BEGIN
+END. (* Err5 *)

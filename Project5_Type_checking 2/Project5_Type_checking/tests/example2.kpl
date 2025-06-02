@@ -1,0 +1,13 @@
+Program Example2; (* Factorial *)
+   
+Type t1 = array(. 4 .) of integer;
+Var A: Array(. 2 .) of t1;
+
+Function F(VAR n : Integer) : Integer;
+  Begin
+    If n = 0 Then n := 1 Else F := 2;
+  End;
+
+Begin
+  CALL F(1+1);
+End. (* Factorial *)

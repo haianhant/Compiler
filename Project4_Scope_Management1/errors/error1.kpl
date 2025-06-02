@@ -1,0 +1,4 @@
+Program Error1; (* ERR_UNDECLARED_IDENT *)
+Begin
+     b = 1;
+End. 

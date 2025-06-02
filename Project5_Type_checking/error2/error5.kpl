@@ -1,0 +1,6 @@
+PROGRAM error5;
+VAR A: ARRAY(. 5 .) OF INTEGER;
+
+BEGIN
+  A(. 'c' .) := 10;   
+END.

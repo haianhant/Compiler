@@ -1,0 +1,7 @@
+PROGRAM yeucauD22;
+Procedure P(x: Integer);
+Begin
+  x := 'z';
+End;
+Begin
+End.

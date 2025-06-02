@@ -1,0 +1,12 @@
+Program Error5; (* ERR_INVALID_RETURN *)
+FUNCTION F(n : Integer): INTEGER;
+BEGIN
+  F := n/2;      
+END;
+FUNCTION G(n : Integer): INTEGER;
+BEGIN
+  F := 2;      
+  G := 3;      
+END;
+Begin
+End.

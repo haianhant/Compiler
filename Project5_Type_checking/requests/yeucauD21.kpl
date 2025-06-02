@@ -1,0 +1,5 @@
+PROGRAM yeucauD21;
+Var A: ARRAY(.10.) OF Integer;
+Begin
+  A(.1.) := 'x'; 
+End.

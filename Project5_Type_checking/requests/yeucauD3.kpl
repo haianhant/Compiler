@@ -1,0 +1,6 @@
+PROGRAM yeucauD3;
+Var x: Integer;
+    y: Integer;
+Begin
+  If x = 'a' Then Call WRITELN;
+End.

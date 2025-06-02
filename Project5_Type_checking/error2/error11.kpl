@@ -1,0 +1,6 @@
+PROGRAM error11;
+VAR A: ARRAY(.2.) OF ARRAY(.4.) OF INTEGER;  (* 2 hàng, 4 cột *)
+
+BEGIN
+  A(.4.)(.2.) := 1;   
+END.

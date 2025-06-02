@@ -1,0 +1,5 @@
+PROGRAM Err3; 
+VAR A : 8386; (*Invalid Type*)
+BEGIN
+   A := 2;
+END. (* Err3 *)

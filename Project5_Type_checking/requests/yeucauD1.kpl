@@ -1,0 +1,7 @@
+PROGRAM yeucauD1;    
+CONST  
+MyConst = 'a';
+Var N : INTEGER;     
+BEGIN  
+    N := MyConst;
+END.

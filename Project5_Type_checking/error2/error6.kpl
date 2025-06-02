@@ -1,0 +1,6 @@
+PROGRAM error6;
+VAR B: ARRAY(. 3 .) OF integer;
+
+BEGIN
+  B := 5;   
+END.

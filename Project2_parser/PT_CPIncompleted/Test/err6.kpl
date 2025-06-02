@@ -1,0 +1,4 @@
+PROGRAM Err6; 
+BEGIN
+   123 := 456;
+END. (* Err6 *)

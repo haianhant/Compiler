@@ -1,0 +1,4 @@
+Program Error3; (* ERR_UNDECLARED_TYPE *)
+var b:a;
+Begin
+End. 

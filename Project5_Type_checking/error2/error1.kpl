@@ -1,0 +1,8 @@
+PROGRAM error1;    
+PROCEDURE P(a: integer; b: integer);
+BEGIN
+END;
+
+BEGIN
+  CALL P(10);    
+END.

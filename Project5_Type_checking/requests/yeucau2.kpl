@@ -1,0 +1,6 @@
+PROGRAM yeucau2;
+Var ch: Char;
+Begin
+  ch := 'a';
+  If ch = 'b' Then Call WRITELN;
+End.

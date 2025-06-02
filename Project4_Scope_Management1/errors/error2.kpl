@@ -1,0 +1,4 @@
+Program Error2; (* ERR_UNDECLARED_CONSTANT *)
+const b = a;
+Begin
+End. 

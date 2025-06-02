@@ -1,0 +1,9 @@
+PROGRAM error2;
+FUNCTION F(x: integer): integer;
+BEGIN
+  F := x
+END;
+
+BEGIN
+  CALL WRITEI(F(1, 2));
+END.

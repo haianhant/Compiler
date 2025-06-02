@@ -1,0 +1,5 @@
+PROGRAM yeucau3;
+Var ch: Char;
+Begin
+  For ch := 'a' To 'z' Do Call WRITELN; 
+End.

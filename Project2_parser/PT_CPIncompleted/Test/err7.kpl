@@ -1,0 +1,9 @@
+PROGRAM Err7; 
+
+PROCEDURE Test(a: INTEGER; b: INTEGER);
+BEGIN
+END;
+
+BEGIN
+   CALL Test (a,); (* Invalid arguments! *)
+END. (* Err7 *)

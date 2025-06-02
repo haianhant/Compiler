@@ -1,0 +1,5 @@
+PROGRAM Err10; 
+   VAR I : INTEGER;
+BEGIN
+   I := 2/ ;
+END. (* Err10 *)

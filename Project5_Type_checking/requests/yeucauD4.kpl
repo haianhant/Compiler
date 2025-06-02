@@ -1,0 +1,6 @@
+PROGRAM yeucauD4;
+Var ch: Char;
+    x: Integer;
+Begin
+  For ch := 1 To 10 Do Call WRITELN; 
+End.

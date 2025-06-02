@@ -1,0 +1,8 @@
+PROGRAM error3;
+PROCEDURE Q;
+BEGIN
+END;
+
+BEGIN
+  CALL Q(1);    
+END.

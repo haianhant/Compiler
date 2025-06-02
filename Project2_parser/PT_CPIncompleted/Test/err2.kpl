@@ -1,0 +1,4 @@
+PROGRAM Err2; 
+CONST X = 'abc';
+BEGIN
+END. (* Err2 *)

@@ -1,0 +1,6 @@
+PROGRAM error7;
+VAR C: ARRAY(. 2 .) OF ARRAY(. 3 .) OF integer;  
+
+BEGIN
+  C(.1.) := 1;     
+END.

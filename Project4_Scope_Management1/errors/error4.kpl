@@ -1,0 +1,7 @@
+Program Error4; (* ERR_UNDECLARED_VARIABLE *)
+Begin
+  For n := 1 To 7 Do
+    Begin
+      Call WRITELN;
+    End;
+End. 

@@ -1,0 +1,4 @@
+Program Error6; (* ERR_UNDECLARED_PROCEDURE *)
+Begin
+  Call WRITESCREEN;
+End.

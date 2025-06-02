@@ -1,0 +1,6 @@
+PROGRAM error8;
+VAR D: ARRAY(. 4 .) OF integer;   (* D chỉ 1 chiều *)
+
+BEGIN
+  D(.1.)(.2.);  
+END.

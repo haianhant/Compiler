@@ -1,0 +1,4 @@
+PROGRAM Err4; 
+   PROCEDURE DoSomething(x: BOOLEAN); (* Invalid basic type *)
+BEGIN
+END. (* Err4 *)

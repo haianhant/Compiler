@@ -1,0 +1,9 @@
+PROGRAM error4;
+FUNCTION G(a: integer; b: integer): integer;
+BEGIN
+  G := 4;
+END;
+
+BEGIN
+  CALL WRITEI(G);   
+END.

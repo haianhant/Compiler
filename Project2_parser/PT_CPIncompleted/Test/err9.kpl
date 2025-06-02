@@ -1,0 +1,5 @@
+PROGRAM Err9; 
+   VAR I : INTEGER;
+BEGIN
+   I := (1+2(/3 ;
+END. (* Err9 *)

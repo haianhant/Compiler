@@ -1,0 +1,8 @@
+PROGRAM yeucauD23;
+Function F(n : Integer): Integer;
+Begin
+  F := 'a';
+End;
+Begin
+End.
+

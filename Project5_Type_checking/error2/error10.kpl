@@ -1,0 +1,8 @@
+PROGRAM error10;
+PROCEDURE S(a: integer; VAR b: char);
+BEGIN
+END;
+
+BEGIN
+  CALL S('c', 10);   
+END.

@@ -1,0 +1,5 @@
+Program Error7; (* ERR_DUPLICATE_IDENT *)
+VAR A : INTEGER;
+    A : INTEGER;
+Begin
+End.

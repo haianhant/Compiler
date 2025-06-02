@@ -1,0 +1,5 @@
+PROGRAM Err8; 
+  VAR I : INTEGER;
+BEGIN
+  IF x - 3 THEN I := 1; (* Invalid comparator here *)
+END. (* Err8 *)

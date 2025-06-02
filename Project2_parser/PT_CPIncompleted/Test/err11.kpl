@@ -1,0 +1,5 @@
+PROGRAM Err11; 
+   VAR I : BEGIN;
+BEGIN
+   I := 2/ ;
+END. (* Err11 *)
