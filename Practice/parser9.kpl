@@ -1,0 +1,51 @@
+PROGRAM  PARSER9;  
+CONST MAX = 10;
+TYPE T = INTEGER;
+VAR  A : ARRAY(. 10 .) OF T;
+     N : INTEGER;
+     CH : CHAR;
+
+PROCEDURE INPUT();
+VAR I : INTEGER;
+    TMP : INTEGER;
+BEGIN
+  N := READI();
+  FOR I := 1 TO N DO
+     A(.I.) := READI();
+END;
+
+PROCEDURE OUTPUT();
+VAR I : INTEGER;
+BEGIN
+  FOR I := 1 TO N DO
+     BEGIN
+       CALL WRITEI(A(.I.));
+       CALL WRITELN();
+     END
+END;
+
+FUNCTION SUM(): INTEGER;
+VAR I: INTEGER;
+    S : INTEGER;
+BEGIN
+    S := 0;
+    I := 1;
+    WHILE I <= N DO
+     BEGIN
+       S := S + A(.I.);
+       I := I + 1;
+     END;
+	SUM:= S
+END;
+
+BEGIN
+   CH := 'y';
+   WHILE CH = 'y' DO
+     BEGIN
+       CALL INPUT();
+       CALL OUTPUT();
+       CALL WRITEI(SUM);
+	   CALL WRITELN();
+       CH := READC();
+     END
+END.  
